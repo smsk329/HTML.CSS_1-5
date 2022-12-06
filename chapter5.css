@@ -1,0 +1,130 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*○ヘッダー（タイトル：Inflatop）*/
+
+header {
+  width: 100%;
+  background-color: green;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/*□ナビ（項目４つ）*/
+.nav-list {
+  /*説明）テキストを中央寄せ。横並びにはならない*/
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 auto;
+  background-color: gold;
+  border-bottom: 1px solid #848282;
+  border-top: 1px solid #848282;
+}
+
+/*項目１つずつに対して*/
+.nav-list-item {
+  /*説明）箇条書きの点をなくします*/
+  list-style: none;
+  display: inline-block;
+  /*左右に20pxずつ余白を作ることで項目ごとに間隔を開ける*/
+  margin: 0 20px;
+}
+
+/*■メイン（箱１２個）*/
+.main {
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blue;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.box5 {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.box6 {
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.box7 {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.box8 {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.box9 {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.box10 {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+
+.box11 {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.box12 {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+
+/*●フッター*/
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: white;
+}
